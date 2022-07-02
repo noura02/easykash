@@ -1,0 +1,39 @@
+@import '../../variables';
+
+.sidebar {
+    border-right: solid 1px #ddd;
+    .logo{ //should be onlu logo icon
+        img{
+            width: 70px;
+            margin: 20px 0;
+        }
+    }
+    position: fixed;
+    left: 0;
+    height: 100%;
+    top: 0px;
+    z-index: 99999;
+    background-color: #fff;
+    border-left: 1px solid #c3cad9;
+    li {
+      margin-bottom: 30px;
+      cursor: pointer;
+    }
+    // a{
+    //     padding: 15px;
+    // }
+    svg{
+        fill: $main-color;
+    }
+    border-radius: 7px;
+  }
+  
+//   .isActive {
+//     line-height: 30px;
+//     background-color: #fff ;
+//     padding: 15px;
+//     border-radius: 7px;
+//     svg{
+//       fill:#09c !important;
+//     }
+//   }

@@ -1,0 +1,14 @@
+@import '../../variables';
+.navbar{
+    border-bottom: solid 1px #ddd ;
+}
+.translate-flag{
+    width: 40px;
+    cursor: pointer;
+}
+.nav-link{
+    margin: 10px 15px;
+    color: $main-color !important;
+    cursor: pointer;
+    font-weight: bold;
+}
