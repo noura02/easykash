@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import '_variables.scss';
+body{
+    overflow: hidden;
+}
+//______________headings______________
+h3{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+//______________inputs______________
+input{
+    border: 0 !important;
+    border-bottom: solid 2px $main-color !important;
+    margin-top: 30px;
+    border-radius: 0 !important;
+    color: $primary-grey !important;
+}
+input:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+
+//______________btns______________
+button{
+    margin: 20px 0;
+    font-weight: bold;
+}

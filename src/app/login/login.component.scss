@@ -1,0 +1,49 @@
+@import '../../variables';
+
+.container-fluid{
+    height: 100vh;
+    padding: 0 !important;
+    .translate-flag{
+        width: 50px;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        // margin: 20px;
+        cursor: pointer;
+    }
+    .row{
+        height: 100%;
+    }
+    .logo-container{
+         background-image: url('../../assets/imgs/1-calender-ar.jpg');
+    }
+    .logo-body{
+        // background-image: url('../../assets/imgs/wave-haikei.svg');
+        .logo{
+            img{
+                width: 300px;
+            }
+        }
+    }
+    .login-body{
+        width: 50%;
+        img{
+            border-radius: 50%;
+            width: 50px;
+        }
+        span{
+            font-size: 14px;   
+            color: $main-color;  
+            cursor: pointer;
+            font-weight: bold;
+           }
+           button{
+            border-radius: 0;
+            background-color: $main-color;
+            color: #fff;
+           }
+           p{
+            color: $primary-grey;
+           }
+    }
+}
