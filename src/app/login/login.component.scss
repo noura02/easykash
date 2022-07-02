@@ -40,7 +40,10 @@
            button{
             border-radius: 0;
             background-color: $main-color;
-            color: #fff;
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
            }
            p{
             color: $primary-grey;
